@@ -71,8 +71,8 @@ body {
   background: #3498db; /* Blu */
 }
 
-.back[data-category="scienza"] {
-  background: #e74c3c; /* Rosso */
+.back[data-category="sessualità"] {
+  background: #990000; /* Rosso */
 }
 
 .back[data-category="storia"] {
