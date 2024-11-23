@@ -37,7 +37,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Colonne dinamiche che si adattano */
-  grid-gap: 20px; /* Spaziatura tra tessere */
+  grid-gap: 10px; /* Spaziatura tra tessere */
   width: 100%; /* Fa sì che occupi tutta la larghezza */
   max-width: 100%; /* Limita la larghezza al 100% della pagina */
   box-sizing: border-box; /* Include il padding nel calcolo della larghezza */
