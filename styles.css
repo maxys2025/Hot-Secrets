@@ -7,6 +7,27 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
+  flex-direction: column; /* Permette al contenuto di essere allineato verticalmente */
+}
+
+.instructions {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7); /* Colore di sfondo semi-trasparente per evidenziare il testo */
+}
+
+.game-container {
+  width: 100%; /* Occupa tutta la larghezza disponibile */
+  max-width: 1200px; /* Limita la larghezza massima per evitare che diventi troppo largo */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .grid {
@@ -77,16 +98,4 @@ body {
 
 .back[data-category="storia"] {
   background: #27ae60; /* Verde */
-}
-
-.instructions {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.game-container {
-  text-align: center;
 }
