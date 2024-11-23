@@ -86,3 +86,7 @@ body {
   margin-bottom: 20px;
   color: #fff;
 }
+
+.game-container {
+  text-align: center;
+}
