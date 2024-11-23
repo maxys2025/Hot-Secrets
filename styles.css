@@ -15,7 +15,6 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 20px;
   color: #fff;
   padding: 10px;
   width: 100%;
@@ -25,17 +24,19 @@ body {
 
 .game-container {
   width: 100%; /* Occupa tutta la larghezza disponibile */
-  text-align: center;
   padding: 20px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
+/* Griglia di carte */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Colonne dinamiche */
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Colonne dinamiche che si adattano */
   grid-gap: 20px; /* Spaziatura tra tessere */
   width: 100%; /* Fa sì che occupi tutta la larghezza */
-  padding: 10px; /* Aggiunge margine interno ai lati */
   box-sizing: border-box; /* Include il padding nel calcolo della larghezza */
 }
 
