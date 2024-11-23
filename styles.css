@@ -24,8 +24,7 @@ body {
 }
 
 .game-container {
-  width: 100vw; /* Imposta la larghezza al 100% della finestra */
-  height: 100vh; /* Imposta l'altezza della finestra */
+  width: 98vw; /* Imposta la larghezza al 100% della finestra */
   padding: 10px;
   box-sizing: border-box;
   display: flex;
