@@ -32,9 +32,9 @@ const questions = [
   { text: "Ti si è mai rotto un preservativo?", category: "sessualità" },
   { text: "Qual è la tua posizione preferita?", category: "sessualità" },
   { text: "Sei mai uscito senza mutande?", category: "sessualità" },
+  { text: "Hai mai fatto una cosa a 3?", category: "sessualità" },
   { text: "Usi sex toys?", category: "sessualità" },
   { text: "Ti sei mai registrato mentre facevi sesso?", category: "sessualità" },
-  { text: "Usi sex toys?", category: "sessualità" },
   { text: "Qual è stato il tempo più lungo in cui sei stato senza fare sesso?", category: "sessualità" },
   { text: "Quando è stato il tuo primo bacio?", category: "sessualità" },
   { text: "Hai mai praticato sadomaso?", category: "sessualità" },
@@ -46,7 +46,6 @@ const questions = [
   { text: "Pensi che le dimensioni siano importanti?", category: "sessualità" },
   { text: "Hai mai fatto una videochiamata hot?", category: "sessualità" },
   { text: "Ti sei mai eccitato in pubblico?", category: "sessualità" },
-  { text: "Hai mai pensato al tuo orientamento sessuale?", category: "sessualità" },
   { text: "Sei mai stato beccato mentre facevi sesso o ti masturbavi?", category: "sessualità" },
   { text: "Hai mai mandato dei nudi?", category: "sessualità" },
 ];
