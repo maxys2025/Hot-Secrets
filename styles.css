@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   flex-direction: column; /* Permette al contenuto di essere allineato verticalmente */
+  overflow-x: hidden; /* Impedisce lo scorrimento orizzontale */
 }
 
 .instructions {
@@ -15,7 +16,6 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 20px;
   color: #fff;
   padding: 10px;
   width: 100%;
@@ -24,12 +24,14 @@ body {
 }
 
 .game-container {
-  width: 100%; /* Occupa tutta la larghezza disponibile */
-  padding: 20px;
+  width: 100vw; /* Imposta la larghezza al 100% della finestra */
+  height: 100vh; /* Imposta l'altezza della finestra */
+  padding: 10px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  overflow-y: auto; /* Scorrimento verticale se necessario */
 }
 
 /* Griglia di carte */
@@ -38,6 +40,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Colonne dinamiche che si adattano */
   grid-gap: 20px; /* Spaziatura tra tessere */
   width: 100%; /* Fa sì che occupi tutta la larghezza */
+  max-width: 100%; /* Limita la larghezza al 100% della pagina */
   box-sizing: border-box; /* Include il padding nel calcolo della larghezza */
 }
 
