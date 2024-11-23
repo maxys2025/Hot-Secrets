@@ -24,7 +24,6 @@ body {
 
 .game-container {
   width: 100%; /* Occupa tutta la larghezza disponibile */
-  max-width: 1200px; /* Limita la larghezza massima per evitare che diventi troppo largo */
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
